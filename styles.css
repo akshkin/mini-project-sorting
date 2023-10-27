@@ -1,0 +1,33 @@
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid #bddadc;
+  padding: 1em 2em;
+  width: 300px;
+  text-align: left;
+}
+th {
+  background-color: #006d77;
+  color: #fff;
+  cursor: pointer;
+}
+.sort-table {
+  margin: 3em auto;
+  max-width: 900px;
+  overflow-x: scroll;
+  border-radius: 7px 7px 0 0;
+}
+
+.table-body {
+  background-color: #edf6f9;
+  border-radius: 0;
+  color: #000;
+  width: 100%;
+}
